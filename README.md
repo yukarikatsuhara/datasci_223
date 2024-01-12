@@ -8,3 +8,7 @@ Since I started learning Python a few months ago for my capstone project, I woul
 Furthermore, the skills of GitHub are also important to manage files, so I would be happy to learn such knowledge too. 
 
 Assignment link: https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/1-foundations/exercise.ipynb
+Memo: 
+'enumerate()' -> We can get the index.
+'zip()' -> We can iterate multiple lists.
+List comprehension
