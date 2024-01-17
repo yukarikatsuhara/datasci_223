@@ -12,7 +12,11 @@ Furthermore, the skills of GitHub are also important to manage files, so I would
 NA
 
 ## Instructions for running the submitted code
+Environment Setup: Python 3
 
+Project Object: Make functions to make the grade
+
+Expected output: Values indicated in the instruction
 
 ## Notes on any difficulties encountered
 I could learn the following new command and need to use it more efficiently.
