@@ -11,12 +11,10 @@ Furthermore, the skills of GitHub are also important to manage files, so I would
 ## List of collablrators
 NA
 
-## Instructions for running the submitted code
-Environment Setup: Python 3
-
-Project Object: Make functions to make the grade
-
-Expected output: Values indicated in the instruction
+# How to run
+1. Open [excercise.ipynb](https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/1-foundations/exercise.ipynb)
+2. Clear outputs (if any)
+3. Run all in a fresh virtual enviroment (no dependencies other than jupyter)
 
 ## Notes on any difficulties encountered
 I could learn the following new command and need to use it more efficiently.
