@@ -9,8 +9,7 @@ Wu Hailiang
 
 # Overview of this project
 1. Classify all symbols
-    1. Model
-    XGBoost
+    1. Model: XGBoost
     2. Process
         1. Load train and valid datasets from emnist.
         2. (If the preliminary analysis is needed) Sample down the train and valid datasets.
@@ -21,9 +20,12 @@ Wu Hailiang
         7. Report the best model's performance using the valid dataset.
     3. Outcome
 
+       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 5000, Sampled valid data: 2000) are used. Regarding the investigation of the subsets, the XGBoost model is not fitted for the classification of O vs 0 and l vs 1. After improving the performance using 3-fold cross-validation, the best model is built. The performance of the best model in the sampled valid data is below.
+
+       Accuracy: , Precision: , Recall: , F1:
+
 2. CLassify digits or letters
-    1. Model
-    XGBoost and Logistic Regression
+    1. Model: XGBoost and Logistic Regression
     2. Process
         1. Load train and valid datasets from emnist.
         2. (If the preliminary analysis is needed) Sample down the train and valid datasets.
@@ -34,6 +36,10 @@ Wu Hailiang
         6. Choose the winning model with the highest F1 score.
         7. Report the winning model's performance using the valid dataset.
     3. Outcome
+
+       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 69000, Sampled valid data: 11000) are used. After improving the performance using 3-fold cross-validation, the winning model is chosen based on the F1 score. The winning model is the XGBoost model (max_depth: 5, min_child_weight: 3, n_estimators: 30). The performance in the sampled valid dataset is below.
+
+       Accuracy: , Precision: , Recall: , F1:
 
 # Notes on any difficulties encountered
 ## Learning the Analysis Flow of Supervised Learning
@@ -50,10 +56,6 @@ Determining the best hyperparameters for the XGBoost model presented another sig
 
 ### Insight: Importance of Computational Resources
 This experience underscored the crucial role of appropriate computational resources in efficient machine learning. It became evident that having access to powerful computing environments is as vital as possessing the requisite knowledge in machine learning. This realization has profound implications for my future projects, highlighting the need to balance technical skills with the right tools and resources.
-
-## Conclusion
-Through this assignment, I learned valuable lessons about the practical aspects of machine learning, including data sampling techniques and the significance of computational power. These insights will guide my approach to future projects, ensuring a more efficient and effective analysis process.
-
 
 # Assignment link
 https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/4-classification/exercise.ipynb
