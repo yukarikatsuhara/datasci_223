@@ -20,8 +20,7 @@ Wu Hailiang
         7. Report the best model's performance using the valid dataset.
     3. Outcome
 
-       All train and valid datasets are used for the process 1 to 5. Regarding the investigation of the subsets, the XGBoost model is not especially fitted for the classification of O vs 0 and l vs 1.
-       In terms of the process 6 and 7, the sampled train and valid datasets are used because my computational resorce is not enough to analyze the all data. (Sampled test data: 10000, Sampled valid data: 5000) After improving the performance using 3-fold cross-validation, the best model are built. The performance of the best model in the sampled valid data is below.
+       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 5000, Sampled valid data: 2000) are used. Regarding the investigation of the subsets, the XGBoost model is not fitted for the classification of O vs 0 and l vs 1. After improving the performance using 3-fold cross-validation, the best model is built. The performance of the best model in the sampled valid data is below.
 
        Accuracy: , Precision: , Recall: , F1:
 
@@ -38,9 +37,9 @@ Wu Hailiang
         7. Report the winning model's performance using the valid dataset.
     3. Outcome
 
-       The winning model is the XGBoost model (max_depth: 5, min_child_weight: 3, n_estimators: 30). The performance in the valid dataset is below.
+       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 69000, Sampled valid data: 11000) are used. After improving the performance using 3-fold cross-validation, the winning model is chosen based on the F1 score. The winning model is the XGBoost model (max_depth: 5, min_child_weight: 3, n_estimators: 30). The performance in the sampled valid dataset is below.
 
-       Accuracy: 0.85, Precision: 0.85, Recall: 0.85, F1:0.85
+       Accuracy: , Precision: , Recall: , F1:
 
 # Notes on any difficulties encountered
 ## Learning the Analysis Flow of Supervised Learning
