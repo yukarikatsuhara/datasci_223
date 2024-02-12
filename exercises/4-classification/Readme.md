@@ -22,7 +22,7 @@ Wu Hailiang
 
        The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 5000, Sampled valid data: 2000) are used. Regarding the investigation of the subsets, the XGBoost model is not fitted for the classification of O vs 0 and l vs 1. After improving the performance using 3-fold cross-validation, the best model is built. The performance of the best model in the sampled valid data is below.
 
-       Accuracy: , Precision: , Recall: , F1:
+       **Accuracy: 0.57, Precision: 0.53, Recall: 0.57, F1: 0.53**
 
 2. CLassify digits or letters
     1. Model: XGBoost and Logistic Regression
@@ -31,15 +31,15 @@ Wu Hailiang
         2. (If the preliminary analysis is needed) Sample down the train and valid datasets.
         3. Create a column for whether each row is a digit(=0) or a letter(=1) in train and valid datasets
         3. Choose an evaluation metric: F1
-        4. Build the XGBoost and Logistic Regression models using K-fold method.
-        5. Improve the models' performance using cross-validation.
+        4. Build the XGBoost and Logistic Regression models using the train dataset with 5-fold cross-validation.
+        5. Improve the models' performance using the 3-fold cross-validation.
         6. Choose the winning model with the highest F1 score.
         7. Report the winning model's performance using the valid dataset.
     3. Outcome
 
-       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 69000, Sampled valid data: 11000) are used. After improving the performance using 3-fold cross-validation, the winning model is chosen based on the F1 score. The winning model is the XGBoost model (max_depth: 5, min_child_weight: 3, n_estimators: 30). The performance in the sampled valid dataset is below.
+       The sampled train and valid datasets are used because my computational resources are not enough to analyze the all data. (Sampled test data: 5000, Sampled valid data: 2000) are used. After improving the performance using 3-fold cross-validation, the winning model is chosen based on the F1 score. The winning model is the XGBoost model ('learning_rate': 0.1, 'max_depth': 4, 'min_child_weight': 1, 'n_estimators': 100, 'subsample': 0.8). The performance in the sampled valid dataset is below.
 
-       Accuracy: , Precision: , Recall: , F1:
+       **Accuracy: 0.76, Precision: 0.76, Recall: 0.76, F1: 0.76**
 
 # Notes on any difficulties encountered
 ## Learning the Analysis Flow of Supervised Learning
