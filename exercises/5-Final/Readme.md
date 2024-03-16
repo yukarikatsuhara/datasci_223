@@ -16,7 +16,7 @@ NA
 2. Clear outputs (if any)
 3. Run all in the above order in a fresh virtual enviroment (no dependencies other than jupyter)
 
-**Note: The original dataset cannot be saved in my git repository. Please let me know if you need the original dataset to confirm reproducibility. **
+**Note: The original dataset cannot be saved in my git repository. Please let me know if you need the original dataset to confirm reproducibility.**
 
 # Overview of this project
 **Purpose:** This project will involve exploring clustering approaches to better understand AD heterogeneity in the EMR, and ultimately derive insights into heterogeneity in this population due to both clinical care and potential biotypes in AD.
