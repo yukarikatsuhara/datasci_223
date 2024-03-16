@@ -39,12 +39,11 @@ According to cumulative explained variance ratio, 1750 components are chosen as 
     2. Iterative clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/2-2.Kmeans_Clustering_iterative.ipynb))
     3. Characterize each cluster (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/2-3.Kmeans_Characterize_Clusters.ipynb))
 
-3. Agglomerative clustering
+3. Agglomerative clustering: To visualize high dimentional clusters in low dimentional space, UMAP visualization is conducted.
     1. Classical clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-1.Agglomerative_Clustering_Classical.ipynb))
     2. Iterative clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-2.Agglomerative_Clustering_iterative.ipynb))
     3. Characterize each cluster (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-3.Agglomerative_Characterize_Clusters.ipynb))
 
-Data Analysis Flow
 ![Analysis Flow](image-2.png)
 
 
