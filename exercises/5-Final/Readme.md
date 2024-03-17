@@ -34,12 +34,12 @@ sex, estimated age, race, and death status at a 1:2 AD:control ratio using a nea
 1. Dimentional Reduction by PCA (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/1.DimentionalReduction_PCA.ipynb))
 According to cumulative explained variance ratio, 1750 components are chosen as the variables for the next clustering approach.
 
-2. K-means clustering: To visualize high dimentional clusters in low dimentional space, UMAP visualization is conducted.
+2. K-means clustering: To visualize high dimensional clusters in low dimensional space, UMAP visualization is conducted.
     1. Classical clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/2-1.Kmeans_Clustering_Classical.ipynb))
     2. Iterative clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/2-2.Kmeans_Clustering_iterative.ipynb))
     3. Characterize each cluster (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/2-3.Kmeans_Characterize_Clusters.ipynb))
 
-3. Agglomerative clustering: To visualize high dimentional clusters in low dimentional space, UMAP visualization is conducted.
+3. Agglomerative clustering: To visualize high dimensional clusters in low dimensional space, UMAP visualization is conducted.
     1. Classical clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-1.Agglomerative_Clustering_Classical.ipynb))
     2. Iterative clustering (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-2.Agglomerative_Clustering_iterative.ipynb))
     3. Characterize each cluster (notebook: (https://github.com/yukarikatsuhara/datasci_223/blob/main/exercises/5-Final/3-3.Agglomerative_Characterize_Clusters.ipynb))
